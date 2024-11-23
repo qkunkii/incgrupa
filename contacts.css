@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@media (min-width: 1250px){
+    .sidepan {
+        font-size: calc(1.3rem + 1.3vw);
+        height: 100%;
+        width: 75%;
+    }
+    .container{
+        border-radius: 25px;
+        background-image: url("images/1597078463_2-7.jpg");
+        margin: 30px;
+        height: 720px;
+        align-content: center;
+    }
+}
+@media (max-width: 1250px){
+    .sidepan {
+        height: 60%;
+        width: 100%;
+        font-size: calc(1.6rem + 1.6vw);
+    }
+    .container{
+        display: flex;
+        border-radius: 25px;
+        background-image: url("images/1597078463_2-7.jpg");
+        margin: 30px;
+        height: 70vh;
+        align-content: center;
+        background-size: cover;
+        background-position: center center;
+    }
+    .phone{
+        text-align: center;
+    }
+    .email{
+        text-align: center;
+    }
+    .devcontact{
+        text-align: center;
+    }
+}
+body{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border-radius: 25px;
+    background-image: url("images/1597078463_2-7.jpg");
+    margin: 30px;
+    align-content: center;
+    font-size: 30px;
+}
+.sidepan{
+    background-color: #00428f;
+    text-align: left;
+    align-content: center;
+    border-radius: 25px;
+}
+.email a{
+    padding: 25px;
+    color: #ff9696;
+}
+.phone{
+    margin-top: 40px;
+}
+.phone a{
+    padding: 25px;
+    color: #ff9696;
+}
+.devcontact{
+    font-size: calc(0.8rem + 0.8vw);
+    margin-top: 40px;
+    padding-left: 25px;
+    color: rgba(255, 255, 255, 0.22);
+}
+.devcontact a{
+    color: rgba(255, 150, 150, 0.54);
+}

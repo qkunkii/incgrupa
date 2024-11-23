@@ -1,0 +1,14 @@
+# Enable the rewrite engine
+RewriteEngine On
+
+# Rule to rewrite "contact" to "contact.html"
+RewriteRule ^contact/?$ contact.html [L]
+
+# Rule to rewrite "index" to "index.html" (Optional, usually index.html is default)
+RewriteRule ^index/?$ index.html [L]
+
+# Rule to rewrite "events" to "events.html"
+RewriteRule ^events/?$ events.html [L]
+
+# Serve index.html by default for the root URL
+DirectoryIndex index.html
